@@ -1,0 +1,13 @@
+doctype html
+html
+  link(rel='stylesheet', href='/stylesheets/style.css')
+  head
+    title Public Thoughts
+  body
+    a(href = '/') Home
+    h1 Public Thoughts
+    
+    each item in JSON.parse(data).reverse()
+      li= item.text
+
+

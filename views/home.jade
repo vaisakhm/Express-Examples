@@ -1,0 +1,16 @@
+doctype html
+html
+  link(rel='stylesheet', href='/stylesheets/style.css')
+  head
+    title Public Thoughts
+  body
+    h1 Public Thoughts Home
+    h2 Welcome Guest!
+    h4 This website lets you post your thoughts. Enjoy! 
+
+    form(name="input", action="/articles", method="post")
+      textarea(name = 'article')
+      input(type="submit", value="Submit")
+
+
+
