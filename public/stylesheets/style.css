@@ -1,19 +1,19 @@
 body {
-	padding: 50px;
-  	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 a {
-	color: #00b7ff;
+  color: #00b7ff;
 }
 textarea {
-	width: 50%;
-	height: 100px;
+  width: 50%;
+  height: 100px;
 }
 input {
-	margin-top: 15px; 
-	display:block;
+  margin-top: 15px;
+  display: block;
 }
 li {
-	padding: 10px 0px;
-	border-bottom: 1px solid #ddd;
+  padding: 10px 0px;
+  border-bottom: 1px solid #ddd;
 }
